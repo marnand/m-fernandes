@@ -1,27 +1,40 @@
-# MFernandes
+# Página de apresentação - Márnand
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.12.
+## 📷 Screenshot
+<!-- ![portfolio-marnand](src/assets/images/screencapture-portfolio-marnand.png) -->
 
-## Development server
+## 📋 Descrição do projeto
+Página de aprensentação profissional 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## 💻 Tecnologias utilizadas
+- Angular version 12.2.12.
+- Firebase
+- Github Actions
 
-## Code scaffolding
+## 📈 Status do projeto
+:construction: Em contrução
+<!-- ✅ Concluído -->
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Comandos CLI
+## Criar projeto com css, arquivo de rotas
+- `ng new name-project --style=css --routing=true`
 
-## Build
+## Dependências
+- `npm i bootstrap jquery --save` 
+  - incluir linha no script styles.css: <br/>
+      @import '../node_modules/bootstrap/dist/css/bootstrap.min.css'  <br/>
+- `npm install --save @fortawesome/fontawesome-free`
+  - incluir linha no script styles.css: <br/> 
+      @import '../node_modules/@fortawesome/fontawesome-free/css/all.min.css' 
+- `npm i @popperjs/core --save`
+  - incluir a linha no script polyfills.ts: <br/>
+      import '../node_modules/bootstrap/dist/js/bootstrap.min.js' 
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Gerar module 
+`ng g m pages/module-name --routing` <!-- Já cria o módulo com um sub-módulo de rotas -->
 
-## Running unit tests
+## Gerar components 
+`ng g c pages/components/component-name`
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## 🚀 Links 
+<!-- - Site em produção: [m.fernandes](https://portfolio-marnand.web.app/) -->

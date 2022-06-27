@@ -1,1 +1,57 @@
 /* You can add global styles to this file, and also import other style files */
+@import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+@import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+@import '../node_modules/@fortawesome/fontawesome-free/css/all.min.css';
+
+body {
+  color: #B3B3B3;
+}
+
+li {
+  padding: 0 2rem;
+}
+
+nav {
+  border-bottom: 2px solid #272727;
+}
+
+.navbar-brand {
+  color: #79589F !important;
+  font-weight: 600;
+}
+
+#home, #about, #experience {
+  padding: 80px 0;
+}
+
+.bg-dark {
+  background-color: #151515 !important;
+}
+
+.list-group-item-action {
+  color: #B3B3B3;
+  border-color: #121212;
+  border-bottom: 2px solid #151515;
+}
+
+.list-group-item.active {
+  border-color: #121212;
+  border-left: 2px solid #b00ff2;
+}
+
+#home {
+  padding-top: 120px;
+  background-color: #121212;
+}
+
+#about {
+  background-color: #151515;
+}
+
+#experience {
+  background-color: #121212;
+}
+
+footer {
+  background-color: #151515;
+}

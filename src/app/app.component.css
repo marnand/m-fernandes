@@ -1,0 +1,14 @@
+li > a {
+  border-radius: 2px;
+  box-shadow: none;
+  color: #B3B3B3 !important;
+
+  transition: .2s ease-out .2s;
+}
+
+li > a:hover {
+  transition: box-shadow .2s ease-out .2s;
+
+  box-shadow: 0 2px #79589F;
+  color: #FFFFFF !important;
+}

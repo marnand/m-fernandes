@@ -1,0 +1,91 @@
+<section id="home" class="d-flex align-items-center justify-content-around flex-wrap pb-5">
+  <div>
+    <h1>Olá, eu sou</h1>
+    <h1 class="text-color">
+      <ngtypewriter [StringList]='name' [speed]='2000'></ngtypewriter>
+    </h1>
+    <h1>Desenvolvedor Full-Stack</h1>
+
+    <div class="d-flex justify-content-evenly flex-wrap mt-5">
+      <button class="py-2 px-3 fs-5">
+        <i class="fa-brands fa-linkedin-in"></i>&nbsp; LinkedIn
+      </button>
+      <button class="py-2 px-3 fs-5">
+        <i class="fa-brands fa-github"></i>&nbsp; Github
+      </button>
+    </div>
+  </div>
+
+  <div>
+    <img src="https://picsum.photos/id/1/600/300" alt="Imagem de pessoa desenvolvedora" />
+  </div>
+</section>
+
+<section id="about" class="d-flex flex-wrap align-items-center">
+  <section class="row mx-5">
+    <div class="col-lg-4 d-flex justify-content-center">
+      <img src="https://picsum.photos/id/1/300/300" alt="Imagem do desenvolvedor" />
+    </div>
+
+    <div class="col-lg-8">
+      <h1>
+        Sobre mim
+      </h1><br />
+
+      <h2 class="fs-4">
+        São Luís, Maranhão
+      </h2>
+
+      <p>
+        Olá! Sou desenvolvedor full-stack a pouco mais de dois anos.
+        Em 2018 iniciei minha carreira trabalhando no back-end com PHP e MySQL, um ano depois mudei para o full-stack com Angular, ASP.NET Core e SQLServer.
+        Atuo até hoje com essas últimas tecnologias citadas e estou me dedicando também cultura DevOps com Github Actions, Docker e Azure DevOps.
+      </p>
+    </div>
+  </section>
+</section>
+
+<section id="experience" class="d-flex align-items-center flex-wrap">
+  <div class="row mx-5">
+    <div class="col-4">
+      <div class="list-group" id="list-tab" role="tablist">
+        <a class="list-group-item list-group-item-action active bg-transparent" id="list-home-list" data-bs-toggle="list" href="#list-home" role="tab" aria-controls="list-home">Facam - Faculdade do Maranhão</a>
+        <a class="list-group-item list-group-item-action bg-transparent" id="list-profile-list" data-bs-toggle="list" href="#list-profile" role="tab" aria-controls="list-profile">Tecnologia Única</a>
+      </div>
+    </div>
+
+    <div class="col-8">
+      <div class="tab-content" id="nav-tabContent">
+        <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+          <h2>Operador de Computador</h2>
+          <span>Out 2012 - Out 2019</span>
+          <p>Facam - Projeto SGA</p>
+          <p>SGA (Sistema de Gestão Acadêmico)
+            Minha primeira oportunidade na área da tecnologia, sendo o projeto
+            um aplicativo (porém feito em ReactJS) para empresas (localizadas
+            em Orlando - FL) que fornecem locação de casas/apartamentos, sendo
+            desenvolvido totalmente pensado na responsividade. Sou responsável
+            pelo front-end da aplicação, assim como integração com o backend.
+            Utiliza SCRUM como metodologia ágil, juntamente com Trello.
+            Projeto encaminhando para a fase final de desenvolvimento.
+          </p>
+        </div>
+        <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+          <h2>Desenvolvedor Full-Stack</h2>
+          <span>Nov 2019 - Atual</span>
+          <p>Tecnologia Única - Projeto Hora do Lar</p>
+          <p>
+            Minha primeira oportunidade na área da tecnologia, sendo o projeto
+            um aplicativo (porém feito em ReactJS) para empresas (localizadas
+            em Orlando - FL) que fornecem locação de casas/apartamentos, sendo
+            desenvolvido totalmente pensado na responsividade. Sou responsável
+            pelo front-end da aplicação, assim como integração com o backend.
+            Utiliza SCRUM como metodologia ágil, juntamente com Trello.
+            Projeto encaminhando para a fase final de desenvolvimento.
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
