@@ -1,14 +1,12 @@
-li > a {
-  border-radius: 2px;
-  box-shadow: none;
-  color: #B3B3B3 !important;
+nav ul li::after {
+  content: "";
+  display: block;
+  border-bottom: 2px solid #00d2df;
 
-  transition: .2s ease-out .2s;
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
 }
 
-li > a:hover {
-  transition: box-shadow .2s ease-out .2s;
-
-  box-shadow: 0 2px #79589F;
-  color: #FFFFFF !important;
+nav ul li:hover::after {
+  transform: scaleX(1);
 }
