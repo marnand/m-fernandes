@@ -13,4 +13,8 @@ export class MainComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  goLink(url: string) {
+    window.open(url, '_blank')
+  }
+
 }
