@@ -28,17 +28,6 @@ nav {
   background-color: #151515 !important;
 }
 
-.list-group-item-action {
-  color: #B3B3B3;
-  border-color: #121212;
-  border-bottom: 2px solid #151515;
-}
-
-.list-group-item.active {
-  border-color: #121212;
-  border-left: 2px solid #b00ff2;
-}
-
 #home {
   padding-top: 120px;
   background-color: #121212;

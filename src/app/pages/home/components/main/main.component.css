@@ -38,15 +38,56 @@ button {
   box-shadow: 0 0 7px #D24074;
 }
 
+.img-about {
+  width: 250px;
+  height: 280px;
+  border-left: 4px #00D2DF solid;
+
+  object-fit: cover;
+}
+
+.text-gray {
+  color: #C4C4C4;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.list-group-item-action {
+  color: #B3B3B3;
+  border-color: #121212;
+  border-bottom: 2px solid #151515;
+}
+
+.list-group-item.active {
+  color: #FFFFFF;
+  border-color: #121212;
+  border-left: 2px solid #00D2DF;
+}
+
+#experience div div .nav {
+  display: none;
+}
+
+#experience div div .nav .nav-item .nav-link.active {
+  color: #FFFFFF;
+  border-color: #121212;
+  border-left: 2px solid #00D2DF;
+}
+
 @media (max-width: 1050px){
   .img-pre {
     display: none;
   }
 }
 
-.img-about {
-  width: 250px;
-  height: 280px;
+@media (max-width: 990px){
+  #experience div div .list-group {
+    display: none;
+  }
 
-  object-fit: contain;
+  #experience div div .nav {
+    display: flex;
+    justify-content: center;
+  }
 }
